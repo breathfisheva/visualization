@@ -52,23 +52,112 @@
     "backgroundColor": "#fff",
     "xAxis": [
         {
+            "name": "",
+            "nameLocation": "middle",
+            "axisLabel": {
+                "interval": "auto"
+            },
+            "nameGap": 25,
+            "type": "value",
+            "nameTextStyle": {
+                "fontSize": 14
+            }
+        }
+    ],
+    "yAxis": [
+        {
             "data": [
                 "open",
                 "closed",
                 "resolved"
             ],
-            "type": "category",
+            "name": "",
             "nameLocation": "middle",
-            "nameTextStyle": {
-                "fontSize": 14
+            "axisLabel": {
+                "formatter": "{value} "
             },
             "nameGap": 25,
-            "name": "",
-            "axisLabel": {
-                "interval": "auto"
+            "type": "category",
+            "nameTextStyle": {
+                "fontSize": 14
             }
         }
     ],
+    "series": [
+        {
+            "data": [
+                9,
+                19,
+                3
+            ],
+            "name": "IOS Bug Status",
+            "stack": "",
+            "markPoint": {
+                "data": []
+            },
+            "label": {
+                "emphasis": {
+                    "show": true
+                },
+                "normal": {
+                    "formatter": null,
+                    "show": false,
+                    "position": "top",
+                    "textStyle": {
+                        "color": "#000",
+                        "fontSize": 12
+                    }
+                }
+            },
+            "indexflag": 1642892,
+            "markLine": {
+                "data": []
+            },
+            "type": "bar"
+        },
+        {
+            "data": [
+                1,
+                26,
+                2
+            ],
+            "name": "Android Bug Status",
+            "stack": "",
+            "markPoint": {
+                "data": []
+            },
+            "label": {
+                "emphasis": {
+                    "show": true
+                },
+                "normal": {
+                    "formatter": null,
+                    "show": false,
+                    "position": "top",
+                    "textStyle": {
+                        "color": "#000",
+                        "fontSize": 12
+                    }
+                }
+            },
+            "indexflag": 1642892,
+            "markLine": {
+                "data": []
+            },
+            "type": "bar"
+        }
+    ],
+    "toolbox": {
+        "orient": "vertical",
+        "show": true,
+        "left": "right",
+        "feature": {
+            "saveAsImage": {
+                "show": true
+            }
+        },
+        "top": "center"
+    },
     "color": [
         "#c23531",
         "#2f4554",
@@ -96,92 +185,35 @@
         "#918597",
         "#f6f5ec"
     ],
-    "toolbox": {
-        "top": "center",
-        "left": "right",
-        "show": true,
-        "feature": {
-            "saveAsImage": {
-                "show": true
-            }
-        },
-        "orient": "vertical"
-    },
+    "legend": [
+        {
+            "data": [
+                "IOS Bug Status",
+                "Android Bug Status"
+            ],
+            "selectedMode": true,
+            "show": true,
+            "left": "center",
+            "top": "top",
+            "orient": "horizontal"
+        }
+    ],
+    "_index_flag": 1642892,
+    "tooltip": {},
     "title": [
         {
-            "top": "auto",
-            "textStyle": {
-                "color": "#000",
-                "fontSize": 18
-            },
-            "text": "title",
+            "subtext": "sub-title",
             "subtextStyle": {
                 "color": "#aaa",
                 "fontSize": 12
             },
-            "subtext": "sub-title",
-            "left": "auto"
-        }
-    ],
-    "series": [
-        {
-            "data": [
-                9,
-                19,
-                3
-            ],
-            "stack": "",
-            "label": {
-                "emphasis": {
-                    "show": true
-                },
-                "normal": {
-                    "textStyle": {
-                        "color": "#000",
-                        "fontSize": 12
-                    },
-                    "show": false,
-                    "formatter": null,
-                    "position": "top"
-                }
+            "textStyle": {
+                "color": "#000",
+                "fontSize": 18
             },
-            "indexflag": 1884831,
-            "type": "bar",
-            "markLine": {
-                "data": []
-            },
-            "markPoint": {
-                "data": []
-            },
-            "name": "bug status"
-        }
-    ],
-    "tooltip": {},
-    "_index_flag": 1884831,
-    "legend": [
-        {
-            "data": [
-                "bug status"
-            ],
-            "top": "top",
-            "show": true,
-            "orient": "horizontal",
-            "left": "center",
-            "selectedMode": true
-        }
-    ],
-    "yAxis": [
-        {
-            "type": "value",
-            "nameLocation": "middle",
-            "nameTextStyle": {
-                "fontSize": 14
-            },
-            "nameGap": 25,
-            "name": "",
-            "axisLabel": {
-                "formatter": "{value} "
-            }
+            "left": "auto",
+            "text": "title",
+            "top": "auto"
         }
     ]
 };
