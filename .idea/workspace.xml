@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15190a5f-150b-4d95-af57-7f51acccb8b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/3dsimple.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/constants.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bar/render.html" beforeDir="false" afterPath="$PROJECT_DIR$/bar/render.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/echarts.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/echarts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3dsimple.py" beforeDir="false" afterPath="$PROJECT_DIR$/3DBAR/3dsimple.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/constants.py" beforeDir="false" afterPath="$PROJECT_DIR$/3DBAR/constants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/render.html" beforeDir="false" afterPath="$PROJECT_DIR$/render.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,28 +25,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bar/changeXY.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/3dsimple.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="28" selection-start-column="28" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wordcloud/wordcloudexample1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="55" lean-forward="true" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
+            <state relative-caret-position="238">
+              <caret line="14" column="20" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="20" />
               <folding>
                 <element signature="e#0#16#0" expanded="true" />
               </folding>
@@ -57,10 +37,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/3DBAR/3dsimple.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="73" lean-forward="true" selection-start-line="20" selection-start-column="73" selection-end-line="20" selection-end-column="73" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3DBAR/render.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/render.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="61" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wordcloud/render.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+            <state relative-caret-position="-731">
+              <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -68,7 +78,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/pyecharts/base.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-9130" />
+            <state relative-caret-position="-4562" />
           </provider>
         </entry>
       </file>
@@ -104,8 +114,9 @@
         <option value="$PROJECT_DIR$/constants.py" />
         <option value="$PROJECT_DIR$/render.html" />
         <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/3dsimple.py" />
         <option value="$PROJECT_DIR$/wordcloud/render.html" />
+        <option value="$PROJECT_DIR$/3dsimple.py" />
+        <option value="$PROJECT_DIR$/3DBAR/3dsimple.py" />
       </list>
     </option>
   </component>
@@ -127,11 +138,6 @@
             <path>
               <item name="visualization" type="b2602c69:ProjectViewProjectNode" />
               <item name="visualization" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="visualization" type="b2602c69:ProjectViewProjectNode" />
-              <item name="visualization" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="visualization" type="b2602c69:ProjectViewProjectNode" />
@@ -158,8 +164,10 @@
       <recent name="C:\code\visualization\bar" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\code\visualization\js" />
+      <recent name="C:\code\visualization\3DBAR" />
       <recent name="C:\code\visualization\wordcloud" />
+      <recent name="C:\code\visualization\js1" />
+      <recent name="C:\code\visualization\js" />
       <recent name="C:\code\visualization\bar" />
     </key>
   </component>
@@ -175,7 +183,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.wordcloudexample1">
+  <component name="RunManager" selected="Python.3dsimple (1)">
+    <configuration name="3dsimple (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="visualization" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3DBAR" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3DBAR/3dsimple.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="3dsimple" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="visualization" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -188,7 +217,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3dsimple.py" />
+      <option name="SCRIPT_NAME" value="C:\code\visualization\3DBAR\3dsimple.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -210,27 +239,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bar/changeXY.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="relationship" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="visualization" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/relationship.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -283,11 +291,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.3dsimple (1)" />
+        <item itemvalue="Python.3dsimple" />
         <item itemvalue="Python.wordcloudexample1" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.3dsimple" />
         <item itemvalue="Python.changeXY (1)" />
-        <item itemvalue="Python.relationship" />
       </list>
     </recent_temporary>
   </component>
@@ -387,7 +395,7 @@
     <entry file="file://$PROJECT_DIR$/scatter.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/constants.py">
+    <entry file="file://$PROJECT_DIR$/3DBAR/constants.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
@@ -396,7 +404,7 @@
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python35/Lib/site-packages/pyecharts/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9130" />
+        <state relative-caret-position="-4562" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bar/render.html">
@@ -420,13 +428,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/render.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="21" column="31" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wordcloud/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -437,27 +438,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/3dsimple.py">
+    <entry file="file://$PROJECT_DIR$/wordcloud/render.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="28" selection-start-column="28" selection-end-column="28" />
+        <state relative-caret-position="-731">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wordcloud/wordcloudexample1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="55" lean-forward="true" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
+        <state relative-caret-position="238">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="20" />
           <folding>
             <element signature="e#0#16#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wordcloud/render.html">
+    <entry file="file://$PROJECT_DIR$/render.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        <state relative-caret-position="323">
+          <caret line="19" column="61" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3DBAR/render.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3DBAR/3dsimple.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="73" lean-forward="true" selection-start-line="20" selection-start-column="73" selection-end-line="20" selection-end-column="73" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

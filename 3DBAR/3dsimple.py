@@ -70,3 +70,5 @@ def create_charts():
     page.add(chart)
 
     return page
+
+create_charts().render()
